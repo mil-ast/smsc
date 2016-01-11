@@ -7,7 +7,7 @@ package main
 
 import(
 	"fmt"
-	"https://github.com/mil-ast/smsc"
+	"github.com/mil-ast/smsc"
 )
 
 func main(){
