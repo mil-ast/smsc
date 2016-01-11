@@ -2,7 +2,7 @@
 Пакет для работы с smsc.ru
 # Пример работы
 ### Отправка сообщения
-```golang
+```go
 package main
 
 import(
@@ -36,7 +36,7 @@ func main(){
 ```
 
 ### Прочие запросы
-```golang
+```go
 // запрос баланса
 sms, err :=  smsc.New("http://smsc.ru/sys/balance.php", "login", "password")
 if err != nil {
